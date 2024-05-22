@@ -8,7 +8,6 @@ import { Container, Form, Button, Row, Col } from "react-bootstrap";
 import "./register.css";
 
 function Register({ propNumber }) {
-    console.log('check propNumber:', propNumber)
 
     const [register, setRegister] = useState({
         name: '',
@@ -16,7 +15,7 @@ function Register({ propNumber }) {
         password: '',
         phonenumber: '',
         age: '',
-        role: '',
+        role: propNumber ? '' : '3',
         avatar: '',
         confirmPassword: ''
     });
@@ -75,7 +74,7 @@ function Register({ propNumber }) {
                     phonenumber: '',
                     age: '',
                     avatar: '',
-                    role: ''
+                    role: propNumber ? '' : '3'
                 });
             } else {
                 toast.error('Đã Tồn Tại Tài Khoản!', {
