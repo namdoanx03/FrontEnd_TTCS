@@ -1,0 +1,135 @@
+.homepage_img {
+
+    background: url(../../image/bacsiduc.jpg) center no-repeat;
+    height: 1000px;
+    opacity: 1;
+
+
+    background-size: contain;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.home_item {
+    width: 30%;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home_item_img {
+    background-size: contain;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.home_item_img_1 {
+    background: url(../../image/dep1.jpg) no-repeat;
+    background-size: contain;
+}
+
+.home_item_img_2 {
+    background: url(../../image/dep2.png) no-repeat;
+    background-size: contain;
+}
+
+.home_item_img_3 {
+    background: url(../../image/dep3.jpg) no-repeat;
+    background-size: contain;
+}
+
+.home_item_img_4 {
+    background: url(../../image/dep4.png) no-repeat;
+    background-size: contain;
+}
+
+.home_item_img_5 {
+    background: url(../../image/dep5.jpg) no-repeat;
+    background-size: contain;
+}
+
+.home_item_img_6 {
+    background: url(../../image/dep6.jpg) no-repeat;
+    background-size: contain;
+}
+
+.home_item_content {
+    padding: 10px;
+}
+
+.head1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(46, 46, 236);
+}
+
+.head2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.head3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text_sub {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.chusub {
+    flex: 1;
+}
+
+.chusub p {
+    padding: 10px 0px;
+}
+
+.anh_sub {
+    flex: 1;
+    background: url(../../image/basilienthien.jpg);
+    background-size: contain;
+
+}
+
+.home_item_content p {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.dichvuphongkham {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(46, 46, 236);
+}
+
+.lichkhamnhakhoa {
+    display: flex;
+}
+
+.anhdepnhakhoa {
+    flex: 1;
+
+    background-size: contain !important;
+    height: 500px;
+}
+
+.anhdepnhakhoa1 {
+    background: url(../../image/ANHBENTRAI.jpg) no-repeat center;
+
+}
+
+.anhdepnhakhoa2 {
+    background: url(../../image/Phòng\ Khám.png) no-repeat center;
+
+}

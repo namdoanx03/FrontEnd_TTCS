@@ -1,0 +1,97 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+
+tr:nth-child(even) {
+
+    background-color: #dddddd;
+}
+
+
+.user_detail {
+    display: flex;
+
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+
+}
+
+.user_detail_body {
+    flex: 1
+}
+
+.img_right_user {
+    flex: 1;
+    background: url("https://benhvienthammy.com.vn/images/slideshow/revslider/slider-1.jpg") center no-repeat;
+    background-size: contain;
+}
+
+.ngocdeptraivch{
+    padding: 10px 12px;
+    border: 1px solid #333;
+    margin: 20px 0px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    top: -24px;
+    transition: all 0.3s ease;
+}
+.ngocdeptraivch:hover{
+    color: red;
+    
+}
+
+.inputUpdate{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+.inputUpdate_item{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    outline: none;
+border: none;
+}
+
+.btn_gui_nhe{
+    padding: 10px 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn_gui_nhe:hover{
+    background-color: #98f4df;
+}
+
+
+
+.btn_capnhat{
+    padding: 12px 12px;
+    border: 1px solid #333;
+    margin: 20px 0px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    top: -77px;
+    right: -145px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.btn_capnhat:hover{
+    color: royalblue;
+    
+}

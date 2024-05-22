@@ -1,0 +1,76 @@
+#header{
+    /* background-color: #042668; */
+    border-bottom:1px solid #042668 ;
+    background-color: #98f4df;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_icon{
+    background: url(../../image/răng_logo-removebg-preview.png) no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    flex: 0.4;
+}
+.header_content{
+
+    flex: 2;
+    display: flex;
+    justify-content:center ;
+
+}
+.header_login{
+    flex: 1;
+    text-align: center;
+}
+.header_content_item{
+    font-size: 20px;
+    padding: 10px 8px;
+    margin: 0px 2px;
+    font-weight: 600;
+    color: #042668;
+    transition: all 0.3s ease-in;
+}
+.header_content_item:hover{
+    color: rgb(79, 79, 250);
+}
+.avatar_user{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.wrapper{
+    position: absolute;
+    right: 18%;
+    top: 80px;
+    font-size: 18px;
+    background-color: #89e8d1;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: none;
+   
+}
+
+.user_modal{
+    margin: 10px 0px;
+}
+.user_modal :hover{
+    color: rgb(54, 36, 213);
+  
+}
+
+
+.display_block{
+    display: block;
+}

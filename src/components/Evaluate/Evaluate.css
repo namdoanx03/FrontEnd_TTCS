@@ -1,0 +1,27 @@
+.pie_chart_evaluate{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.detail_pie_chart{
+    flex: 1;
+}
+.img_pie_chart{
+    flex: 0.75;
+}
+
+.so{
+    text-align: center;
+    padding: 10px 0px;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.evaluate_text{
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+    padding: 20px 0px;
+    text-align: center;
+    padding-bottom: 30px;
+}

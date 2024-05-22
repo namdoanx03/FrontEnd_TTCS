@@ -1,0 +1,33 @@
+.manage_user {
+    display: flex;
+}
+
+.manage_doctor {
+    flex: 1;
+}
+
+.manage_patient {
+    flex: 1;
+}
+
+.text_head {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0px;
+    color: rgb(37, 37, 255);
+}
+
+.button_delete_user {
+
+  
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease;
+
+}
+.button_delete_user:hover{
+    background: #98f4df;
+}

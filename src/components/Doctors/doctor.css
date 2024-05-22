@@ -1,0 +1,59 @@
+.doctor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.doctor_text {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(46, 46, 236);
+    padding: 30px 0px;
+}
+
+.doctor_detail {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    scale: 1;
+    transition: all 0.5s ease;
+    text-align: center;
+
+}
+
+.doctor_detail:hover {
+    scale: 1.05;
+}
+
+.doctor_detail_img {
+
+
+    background-size: contain;
+    height: 300px;
+}
+
+.doctor_detail_content {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 15px;
+
+}
+
+.avatar_modal{
+    height: 380px;
+    width: 300px;
+}
+
+.btn_close_modal{
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+}

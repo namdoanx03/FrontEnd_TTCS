@@ -1,0 +1,94 @@
+.avatar_cosophongkham{
+    background: url(../../image//anhphongkham.jpg);
+}
+.content_phongkham{
+    display: flex;
+}
+.doctor_phongkham{
+
+    text-align: center;
+    flex: 1;
+}
+.coso_phongkham{
+    text-align: center;
+    flex: 1;
+}
+.avatar_cosophongkham{
+    background: url(../../image//anhphongkham.jpg) no-repeat center;
+    background-size: contain;
+    height: 100%;
+
+
+    width: 100%;
+}
+.name_phongkham{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+}
+.chuxinquaa{
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.listBookforclinic{
+    padding: 10px 0px 50px 0px;
+}
+
+.themmotdoanchat{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+}
+
+.checktosuccess{
+    text-align: center;
+   font-size: 20px;
+   color: #333;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.checktosuccess:hover{
+    font-size: 25px;
+    color: blue;
+}
+.name_phongkham{
+padding-top: 50px;
+padding-bottom: 20px;
+
+}
+
+
+.themnene{
+    display: flex;
+}
+.themne{
+    flex: 1;
+    padding: 10px 0px;
+    margin: 10px;
+    transform: scale(1);
+    transition:  all 0.3s ease;
+}
+.themne:hover{
+    transform: scale(1.1);
+
+}
+.themne1{
+   background: url(../../image/nhasilamviec.jpg) no-repeat center;
+   background-size: contain;
+   height: 300px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.themne2{
+   background: url(../../image/nhasilamviec2.jpg) no-repeat center;
+   background-size: contain;
+   height: 300px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+
+}

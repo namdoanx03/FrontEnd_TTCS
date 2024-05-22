@@ -1,0 +1,26 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  tr{
+    background: rgb(221, 200, 200);
+  }
+
+  .schedule_done{
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .schedule_done:hover{
+    background: #89e8d1;
+  }
+ 
