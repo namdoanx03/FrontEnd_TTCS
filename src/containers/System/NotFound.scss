@@ -1,0 +1,56 @@
+.error404 {
+  align-items: center;
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 145px 0 130px;
+  text-align: center;
+  height: 100vh;
+
+  .error-img {
+    background-image: url("../../assets/not-found/not-found.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 60%;
+    height: 100%;
+  }
+  .error-content {
+    margin: 15px 0 0 -40px;
+    min-width: 40%;
+    height: 100%;
+
+    h3 {
+      margin-bottom: 30px;
+      color: #30425b;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 57px;
+      max-width: 460px;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    .list-contact {
+      display: flex;
+      justify-content: center;
+
+      .itemct {
+        margin: 0 10px;
+        width: 130px;
+        p {
+          color: #666;
+          font-size: 12px;
+          line-height: 17px;
+          margin-bottom: 5px;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }
+      }
+    }
+  }
+}

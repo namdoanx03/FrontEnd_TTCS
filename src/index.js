@@ -1,49 +1,34 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { Provider } from "react-redux";
-import { rootReducer } from "./redux/reducers"
-import mySaga from './redux/sagas';
-import { createStore, applyMiddleware } from 'redux';
-import createSagaMiddleware from "redux-saga";
-import { composeWithDevTools } from "redux-devtools-extension"
-// import { persistStore, persistReducer } from 'redux-persist';
-// import storage from 'redux-persist/lib/storage';
-// import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
-// import { PersistGate } from 'redux-persist/lib/integration/react';
+import ReactDOM from 'react-dom';
+import 'react-toastify/dist/ReactToastify.css';
+import './styles/styles.scss';
 
 
-// const persistConfig = {
-//   key: 'root',
-//   storage: storage,
-//   stateReconciler: autoMergeLevel2 // Xem thêm tại mục "Quá trình merge".
-// };
+import App from './containers/App';
+import * as serviceWorker from './serviceWorker';
+import IntlProviderWrapper from "./hoc/IntlProviderWrapper";
 
 
-// const pReducer = persistReducer(persistConfig, rootReducer);
+import { Provider } from 'react-redux';
+import reduxStore, { persistor } from './redux';
 
+import { GoogleAuthProvider } from "./containers/Auth/resources/googleAuth";
 
+const renderApp = () => {
+    ReactDOM.render(
+        <Provider store={reduxStore}>
+            <IntlProviderWrapper>
+                <GoogleAuthProvider>
+                    <App persistor={persistor}/>
+                </GoogleAuthProvider>
+            </IntlProviderWrapper>
+        </Provider>,
+        document.getElementById('root')
+    );
+};
 
-const sagaMiddleware = createSagaMiddleware()
-
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(sagaMiddleware)))
-
-// const persistor = persistStore(store);
-
-sagaMiddleware.run(mySaga);
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Provider store={store}>
-    {/* <PersistGate loading = { null } persistor={persistor}> */}
-      <App />
-    {/* </PersistGate> */}
-
-  </Provider>
-
-);
-
-reportWebVitals();
+renderApp();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
